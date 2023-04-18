@@ -1,9 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom/dist";
+import img from "../assets/logo_c.png";
 
 const Navbar = () => {
   return (
-    <div>
-      <h1>Page acceuille Kesa</h1>
+    <div className="Navbar_top">
+      <img src={img} alt="logo kesa" />
+      <nav>
+        <Link to="/">Acceuil</Link>
+        <Link to="/About">A propos</Link>
+      </nav>
     </div>
   );
 };
