@@ -1,11 +1,16 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Banner from "../components/Banner";
+import BackImg from "../assets/IMG.png";
+import "../style/Home.css";
+
+const text = "Chez vous, partout et ailleurs";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Navbar />
-      <h1>Kesa</h1>
+      <Banner imageUrl={BackImg} text={text} />
     </div>
   );
 };
