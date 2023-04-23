@@ -20,3 +20,6 @@
     font-size: 0.6em;
     text-decoration: none;
 }
+.nav-active{
+    color: aqua;
+}

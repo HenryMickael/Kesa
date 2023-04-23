@@ -12,7 +12,7 @@ function AppRouter() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/*" element={<Erreur />} />
+        <Route path="*" element={<Erreur />} />
         <Route path="/About" element={<About />} />
         <Route path="/chambres/:chambreid" element={<Appartement />} />
       </Routes>
