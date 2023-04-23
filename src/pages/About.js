@@ -3,7 +3,7 @@ import Banner from "../components/Banner";
 import image2 from "../assets/IMGB.png";
 import "../style/About.css";
 import aboutData from "../aboutData";
-import Collapse from "../components/collapse";
+import Collapse from "../components/Collapse";
 
 const About = () => {
   return (
