@@ -3,7 +3,8 @@
     margin: 0 auto;
 }
 .collapse-header{
-    margin : 10px 0
+    margin : 10px 0;
+    padding: 5px;
 }
 .collapse-header h2{
     background-color: #ff6060;
@@ -20,11 +21,11 @@
     display: block;
     overflow: hidden;
     transition: height 0.3s ease-in-out;
-    background-color: #ebe8e8;
+    background-color: #f6f6f6;
     font-size: 0.5em;
     margin-bottom: 10px;
-    margin-top: -10px;
-    padding: 5px;
+    margin-top: -15px;
+    padding: 10px;
     border-radius: 10px;
   }
   
@@ -49,4 +50,10 @@
   }
   .up {
     transform: rotate(90deg);
+  }
+
+  @media screen and (max-width: 850px) {
+    .collapse{
+      width: 100%;
+    }
   }

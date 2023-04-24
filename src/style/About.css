@@ -1,4 +1,8 @@
 .about{
     width: 100%;
-    font-size: 0.6em;
+    font-size: 1em;
+}
+.about_Collaps{
+    font-size: 0.5em;
+    margin-top: 25px;
 }
