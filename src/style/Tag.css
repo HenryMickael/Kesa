@@ -15,3 +15,12 @@
     font-weight: 300;
     border-radius: 10px;
 }
+@media screen and (max-width: 650px) {
+    .tag_multi{
+        width: 100%;
+
+    }
+    .tag_solo{
+        width: 100%;
+    }
+}

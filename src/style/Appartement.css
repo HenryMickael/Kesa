@@ -32,3 +32,32 @@
     width: 48%;
     margin: 0;
 }
+@media screen and (max-width: 850px) {
+    .appartement_info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .appart_title{
+        width: 100%;
+    }
+    .appart_title h2{
+        font-size: 0.6em;
+    }
+    .info_host{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .rating{
+        height: 100%;
+    }
+    .collapse_double{
+        width: 100%;
+        flex-direction: column;
+}
+    .collapse_double .collapse{
+        width: 100%;
+    }
+
+}

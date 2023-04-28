@@ -68,8 +68,24 @@
 
 }
 @media screen and (max-width: 850px) {
-    .card_All{
-    grid-template-columns:1fr;
+.card_All {
+    grid-template-columns: 1fr;
     padding: 0;
-}
+    display: grid;
+  }
+  
+  .card {
+    height: 280px;
+  }
+  
+  .card_Chambre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+  }
+  
+  .card img {
+    height: 100%;
+  }
 }

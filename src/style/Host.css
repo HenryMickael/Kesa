@@ -18,3 +18,23 @@
     text-align: right;
 
 }
+
+@media screen and (max-width: 850px) {
+.host_name_pic{
+    margin-top: 0;
+    font-size: 0.7em;
+    justify-content: center;
+    align-items: center;
+}
+.host_name_pic p {
+    margin: 0;
+    justify-content: center;
+    text-align: end;
+    margin-right: 5px;
+}
+.host_name_pic img{
+    height: 35%;
+    width: 35%;
+    margin:auto
+}
+}
