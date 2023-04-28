@@ -32,6 +32,9 @@
   .collapse-body.closed {
     display: none;
   }
+  .collapse-body p{
+    margin: 3px 0 ;
+  }
   button {
     background: none;
     border: none;

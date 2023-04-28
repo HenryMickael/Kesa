@@ -1,15 +1,34 @@
 .appartement_full{
     width: 100%;
 }
+.appart_title{
+    margin-top: 1em;
+    width: 70%;
+}
 .appart_title h2{
-    width: 50%;
+    width: 90%;
     font-size: 0.7em;
     font-weight: 500;
     margin: 0;
+}
+.appartement_info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 .location{
     font-size: 0.3em;
     margin: 0;
     justify-content: flex-start;
 
+}
+.collapse_double{
+    font-size: 0.6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.collapse_double .collapse{
+    width: 48%;
+    margin: 0;
 }
