@@ -1,7 +1,6 @@
 .slider{
     margin: auto;
     height: 500px;
-    /* border-radius: 25px; */
     position: relative;
 }
 .slider img {
@@ -33,4 +32,9 @@
     top: 40%;
     right: 0%;
     padding: 0 20px;
+}
+@media screen and (max-width: 850px) {
+    .slider{
+        margin: auto;
+    }
 }

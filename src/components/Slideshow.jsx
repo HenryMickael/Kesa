@@ -1,31 +1,26 @@
 import React, { useState } from "react";
 import "../style/Slideshow.css";
-import chambres from "../Fetch.json";
-import { useParams } from "react-router-dom";
-import chevron from '../assets/Vector.png'
+import chevron from '../assets/Vector.png';
 
-const Slideshow = () => {
-  const { chambreid } = useParams();
-  const chambre = chambres.find((chambre) => chambre.id === chambreid);
+const Slideshow = ({slide}) => {
   const [imageAffiche, setimageAffiche] = useState(0);
+  const length = slide.length;
 
   const handleNext = () => {
-    setimageAffiche((imageAffiche + 1) % chambre.pictures.length);
+    setimageAffiche(imageAffiche === length - 1 ? 0 : imageAffiche + 1);
   };
 
   const handlePrev = () => {
-    setimageAffiche(
-      (imageAffiche + chambre.pictures.length - 1) % chambre.pictures.length
-    );
+    setimageAffiche(imageAffiche === 0 ? length - 1 : imageAffiche - 1);
   };
 
-  if (chambre.pictures.length === 1) {
+  if (length === 1) {
     return (
       <div className="carousel">
         <div className="slider">
           <img
             key={imageAffiche}
-            src={chambre.pictures[imageAffiche]}
+            src={slide[0]}
             alt={imageAffiche}
           />
         </div>
@@ -38,18 +33,19 @@ const Slideshow = () => {
       <div className="slider">
         <img
           key={imageAffiche}
-          src={chambre.pictures[imageAffiche]}
+          src={slide[imageAffiche]}
           alt={imageAffiche}
         />
-      {/* </div> */}
       <p className="count">
-        {imageAffiche + 1}/{chambre.pictures.length}
+        {imageAffiche + 1}/{length}
       </p>
-        <div className="contain_btn">
-          <button onClick={handlePrev} className="prev-btn"><img src={chevron} alt="" />
-          </button>
-          <button onClick={handleNext} className="next-btn"><img src={chevron} alt="" />
-          </button>
+      <div className="contain_btn">
+        <button onClick={handlePrev} className="prev-btn">
+          <img src={chevron} alt="" />
+        </button>
+        <button onClick={handleNext} className="next-btn">
+          <img src={chevron} alt="" />
+        </button>
         </div>
       </div>
     </div>
