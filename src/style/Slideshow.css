@@ -1,0 +1,34 @@
+.slider{
+    margin: auto;
+    height: 500px;
+    /* border-radius: 25px; */
+    position: relative;
+}
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.count{
+    position: absolute;
+    color: black;
+    bottom: 0;
+    right: 50%;
+    font-size: 0.5em;
+    font-weight: 600;
+}
+.contain_btn{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.prev-btn{
+    position: absolute;
+    top: 40%;
+}
+.next-btn{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+}
