@@ -6,6 +6,8 @@ import Erreur from "./Erreur";
 import Collapse from "../components/Collapse";
 import "../style/Appartement.css"
 import Tag from "../components/Tag";
+import Host from "../components/Host";
+import Rating from "../components/Rating";
 
 const Appartement = () => {
   const { chambreid } = useParams();
@@ -17,7 +19,7 @@ const Appartement = () => {
       </div>
     );
   }
-  const { title, location, description, equipments, rating, host } =
+  const { title, location, description, equipments,host, rating } =
     chambre;
   return (
     <div className="appartement_full">
@@ -29,17 +31,18 @@ const Appartement = () => {
           <Tag/>
         </div>
         <div className="info_host">
-          <p>{host.name}</p>
-          <img src={host.picture} alt="" />
-          <p>{rating}</p>
+          <Host host={host}/>
+          <Rating rating={rating}/>
         </div>
       </div>
+      <div className="collapse_double">
       <Collapse title="Description">{description}</Collapse>
       <Collapse title="Equipements">
         {equipments.map((equipment) => (
           <p key={equipment}>{equipment}</p>
         ))}
       </Collapse>
+      </div>
     </div>
   );
 };
