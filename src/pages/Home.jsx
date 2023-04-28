@@ -2,7 +2,6 @@ import React from "react";
 
 import Banner from "../components/Banner";
 import BackImg from "../assets/IMG.png";
-import "../style/Home.css";
 import Footer from "../components/Footer";
 import Carda from "../components/Carda";
 
