@@ -1,5 +1,4 @@
-
-.App{
+.App {
   background-color: white;
   min-height: 100vh;
   display: flex;
@@ -8,15 +7,15 @@
   font-size: calc(50px + 2vmin);
   margin: 0 2em;
   width: 100%;
-  color: #FF6060;
+  color: #ff6060;
 }
 @media screen and (max-width: 1200px) {
-  .App{
-    margin: 0 0.5em
-
-  }}
+  .App {
+    margin: 0 0.5em;
+  }
+}
 @media screen and (max-width: 850px) {
-  .App{
-    margin: 0 0.5em
+  .App {
+    margin: 0 0.5em;
   }
 }

@@ -1,63 +1,61 @@
-.appartement_full{
-    width: 100%;
+.appartement_full {
+  width: 100%;
 }
-.appart_title{
-    margin-top: 1em;
-    width: 70%;
+.appart_title {
+  margin-top: 1em;
+  width: 70%;
 }
-.appart_title h2{
-    width: 90%;
-    font-size: 0.7em;
-    font-weight: 500;
-    margin: 0;
+.appart_title h2 {
+  width: 90%;
+  font-size: 0.7em;
+  font-weight: 500;
+  margin: 0;
 }
-.appartement_info{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+.appartement_info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
-.location{
-    font-size: 0.3em;
-    margin: 0;
-    justify-content: flex-start;
-
+.location {
+  font-size: 0.3em;
+  margin: 0;
+  justify-content: flex-start;
 }
-.collapse_double{
-    font-size: 0.6em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.collapse_double {
+  font-size: 0.6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.collapse_double .collapse{
-    width: 48%;
-    margin: 0;
+.collapse_double .collapse {
+  width: 48%;
+  margin: 0;
 }
 @media screen and (max-width: 850px) {
-    .appartement_info{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .appart_title{
-        width: 100%;
-    }
-    .appart_title h2{
-        font-size: 0.6em;
-    }
-    .info_host{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-    }
-    .rating{
-        height: 100%;
-    }
-    .collapse_double{
-        width: 100%;
-        flex-direction: column;
-}
-    .collapse_double .collapse{
-        width: 100%;
-    }
-
+  .appartement_info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .appart_title {
+    width: 100%;
+  }
+  .appart_title h2 {
+    font-size: 0.6em;
+  }
+  .info_host {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .rating {
+    height: 100%;
+  }
+  .collapse_double {
+    width: 100%;
+    flex-direction: column;
+  }
+  .collapse_double .collapse {
+    width: 100%;
+  }
 }

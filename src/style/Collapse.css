@@ -1,62 +1,61 @@
-.collapse{
-    width: 70%;
-    margin: 0 auto;
+.collapse {
+  width: 70%;
+  margin: 0 auto;
 }
-.collapse-header{
-    margin : 10px 0;
-    padding: 5px;
+.collapse-header {
+  margin: 10px 0;
+  padding: 5px;
 }
-.collapse-header h2{
-    background-color: #ff6060;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.7em;
-    font-weight: 400;
-    margin: 0;
-    padding: 5px 20px;
-    border-radius: 10px;
+.collapse-header h2 {
+  background-color: #ff6060;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7em;
+  font-weight: 400;
+  margin: 0;
+  padding: 5px 20px;
+  border-radius: 10px;
 }
 .collapse-body {
-    display: block;
-    overflow: hidden;
-    transition: height 0.3s ease-in-out;
-    background-color: #f6f6f6;
-    font-size: 0.5em;
-    margin-bottom: 10px;
-    margin-top: -15px;
-    padding: 10px;
-    border-radius: 10px;
-  }
-  
-  .collapse-body.closed {
-    display: none;
-  }
-  .collapse-body p{
-    margin: 3px 0 ;
-  }
-  button {
-    background: none;
-    border: none;
-    color: inherit;
-    cursor: pointer;
-    font: inherit;
-    outline: inherit;
-    padding: 0;
-    margin: 0;
-    text-align: inherit;
-    text-decoration: none;
-  }
-  .down{
-    transform: rotate(270deg);
-    
-  }
-  .up {
-    transform: rotate(90deg);
-  }
+  display: block;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+  background-color: #f6f6f6;
+  font-size: 0.5em;
+  margin-bottom: 10px;
+  margin-top: -15px;
+  padding: 10px;
+  border-radius: 10px;
+}
 
-  @media screen and (max-width: 850px) {
-    .collapse{
-      width: 100%;
-    }
+.collapse-body.closed {
+  display: none;
+}
+.collapse-body p {
+  margin: 3px 0;
+}
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  outline: inherit;
+  padding: 0;
+  margin: 0;
+  text-align: inherit;
+  text-decoration: none;
+}
+.down {
+  transform: rotate(270deg);
+}
+.up {
+  transform: rotate(90deg);
+}
+
+@media screen and (max-width: 850px) {
+  .collapse {
+    width: 100%;
   }
+}

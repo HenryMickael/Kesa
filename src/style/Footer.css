@@ -1,17 +1,16 @@
-.footer{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    color: white;
-    border-radius: 25px;
-    margin-top: 10px;
-
+.footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+  border-radius: 25px;
+  margin-top: 10px;
 }
-.footer img{
-    margin-top: 20px;
+.footer img {
+  margin-top: 20px;
 }
-.footer p{
-    font-size: 0.3em;
+.footer p {
+  font-size: 0.3em;
 }

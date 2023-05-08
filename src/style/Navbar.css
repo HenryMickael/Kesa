@@ -1,45 +1,47 @@
-.Navbar_top{
-    width: 100%;
-    height: 1em;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.7em;
-    margin-top: 0.5em;
+.Navbar_top {
+  width: 100%;
+  height: 1em;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7em;
+  margin-top: 0.5em;
 }
-.Navbar_top img{
-    margin-top: 0.5em;
+.Navbar_top img {
+  margin-top: 0.5em;
 }
-.Navlink{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    
+.Navlink {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
-.Navlink a{
-    margin-top: 0.5em;
-    margin-left: 3em;
-    font-size: 0.6em;
-    text-decoration: none;
-    color: #FF6060;
+.Navlink a {
+  margin-top: 0.5em;
+  margin-left: 3em;
+  font-size: 0.6em;
+  text-decoration: none;
+  color: #ff6060;
 }
-.nav-active{
-    border-bottom: 3px solid;
+.nav-active {
+  border-bottom: 3px solid;
 }
 
 @media screen and (max-width: 1200px) {
-    .Navlink a{
-        font-size: 0.4em;
-    }}
+  .Navlink a {
+    font-size: 0.4em;
+  }
+}
 @media screen and (max-width: 650px) {
-    .Navbar_top img{
-        margin-top: 0;
-    }
-    .Navlink a{
-        font-size: 0.4em;
-        margin: 0 10px;
-    }}
-    @media screen and (max-width: 400px) {
-        .Navlink a{
-            font-size: 0.25em;
-            margin: 0 10px;
-        }}
+  .Navbar_top img {
+    margin-top: 0;
+  }
+  .Navlink a {
+    font-size: 0.4em;
+    margin: 0 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Navlink a {
+    font-size: 0.25em;
+    margin: 0 10px;
+  }
+}

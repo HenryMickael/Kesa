@@ -1,14 +1,14 @@
-.rating{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 30px;
+.rating {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
 }
-.rating_star{
-    margin: 5px;
+.rating_star {
+  margin: 5px;
 }
 @media screen and (max-width: 650px) {
-    .rating{
-        margin: auto;
-        height: 25px;
-    }
+  .rating {
+    margin: auto;
+    height: 25px;
+  }
 }
