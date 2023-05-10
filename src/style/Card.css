@@ -45,7 +45,7 @@
 }
 .card h2 {
   width: 35%;
-  font-size: 0.4em;
+  font-size: 25%;
   font-weight: 400;
   color: white;
   text-decoration: none;
@@ -83,5 +83,6 @@
 
   .card img {
     height: 100%;
+    width: 100%;
   }
 }
