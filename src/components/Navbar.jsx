@@ -11,7 +11,7 @@ const Navbar = () => {
       </NavLink>
       <nav className="Navlink">
         <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-          Acceuil
+          Accueil
         </NavLink>
         <NavLink
           to="/About"
